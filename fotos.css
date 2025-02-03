@@ -1,0 +1,14 @@
+* {
+    background-color: black;
+}
+
+.foto-container {
+    display: grid; /* Ativa o grid */
+    grid-template-columns: 1fr 1fr; /* Divide o espaço igualmente entre duas colunas */
+    gap: 15px; /* Espaçamento entre as fotos */
+  }
+  
+  .foto {
+    width: 100%; /* As imagens ocupam toda a largura da célula */
+    height: auto;
+  }

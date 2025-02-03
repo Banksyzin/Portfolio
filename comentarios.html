@@ -1,12 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Comentários | Projeto Super Mario Bros</title>
+    <link rel="stylesheet" href="comentarios.css">
+    <link rel="shortcut icon" href="logoSM.png" type="image/x-icon">
 </head>
+
 <body>
-    Comentários
+    <header>
+        <img id="logo" src="./logo.png">
+        <nav>
+            <ul>
+        <a href="./index.html">
+            <li>Home</li>
+        </a>
+        <a href="./contato.html">
+            <li>Contato</li>
+        </a>
+        <a href="./fotos.html">
+            <li>Fotos</li>
+        </a>
+        <a href="./comentarios.html">
+            <li>Comentários</li>
+        </a>
+    </ul>
+        </nav>
+    </header>
+    
+    <div class="comentarios-container">
+        <h2>Comentários</h2>
+
+        <!-- Comentário 1 -->
+        <div class="comentario">
+            
+        </div>
+
+        <!-- Comentário 2 -->
+        <div class="comentario">
+            
+        </div>
+
+        <!-- Formulário para novo comentário -->
+        <div class="form-comentario">
+            <textarea id="novo-comentario" placeholder="Escreva um comentário..."></textarea>
+            <button onclick="adicionarComentario()">Comentar</button>
+        </div>
+    </div>
+
+    <script src="comentario.js"></script>
+   
 </body>
 </html>
