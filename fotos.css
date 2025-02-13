@@ -44,13 +44,13 @@ li:hover {
 }
 
 .foto-container {
-  display: grid; /* Ativa o grid */
-  grid-template-columns: 1fr 1fr; /* Divide o espaço igualmente entre duas colunas */
-  gap: 15px; /* Espaçamento entre as fotos */
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 15px; 
 }
 
 .foto {
-  width: 100%; /* As imagens ocupam toda a largura da célula */
+  width: 100%; 
   height: auto;
 }
 
